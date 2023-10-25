@@ -20,7 +20,7 @@ if (index == 0)
 {
 *head = (*head)->next;
 free(temp);
-eturn (1);
+return (1);
 }
 
 while (i < index - 1)
@@ -30,7 +30,6 @@ return (-1);
 temp = temp->next;
 i++;
 }
-
 
 current = temp->next;
 temp->next = current->next;
